@@ -8,6 +8,8 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 h1 {
+  font-family: 'Lora', serif;
+  font-weight: bold;
   text-align: center;
 }
 
@@ -25,6 +27,7 @@ p{
     margin:20px;
 }
 .title1{
+    font-family: 'Lora', serif;
     padding-top: 5px;
     padding-bottom: 5px;
     padding-right: 15%;
@@ -40,6 +43,7 @@ p{
 }
 
 .title2{
+    font-family: 'Lora', serif;
     padding-top: 5px;
     padding-bottom: 5px;
     padding-right: 15%;
@@ -54,6 +58,7 @@ p{
     margin-right: 0px;
 }
 .title3{
+    font-family: 'Lora', serif;
     padding-top: 5px;
     padding-bottom: 5px;
     padding-right: 15%;
@@ -167,17 +172,12 @@ p{
 
 /** HEADER **/
 #header-nav {
-  background-color: #f6b319;
+  background-color: #333333;
   border-radius: 0;
   border: 0;
 }
 
-#logo-img {
-  background: url('../images/restaurant-logo_large.png') no-repeat;
-  width: 150px;
-  height: 150px;
-  margin: 10px 15px 10px 0;
-}
+
 
 .navbar-brand {
   padding-top: 25px;
@@ -185,7 +185,7 @@ p{
 
 .navbar-brand h1 { /* Restaurant name */
   font-family: 'Lora', serif;
-  color: #557c3e;
+  color: #ffffff;
   font-size: 1.5em;
   text-transform: uppercase;
   font-weight: bold;
@@ -211,31 +211,15 @@ p{
   margin-top: 10px;
 }
 #nav-list a {
-  color: #951C49;
+  color: #ffffff;
   text-align: center;
 }
 #nav-list a:hover {
   background: #E7E7E7;
 }
-#nav-list a span {
-  font-size: 1.8em;
-}
-
-#phone {
-  margin-top: 5px;
-}
-#phone a { /* Phone number */
-  text-align: right;
-  padding-bottom: 0;
-}
-#phone div { /* We Deliver */
-  color: #557c3e;
-  text-align: right;
-  padding-right: 15px;
-}
 
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
-  border: 1px solid #61122f;
+  border: 1px solid #000000;
 }
 .navbar-header button.navbar-toggle {
   clear: both;
@@ -250,14 +234,7 @@ p{
 
 /********** Medium devices only **********/
 @media (min-width: 992px) and (max-width: 1199px) {
-  /* Header */
-  #logo-img {
-    background: url('../images/restaurant-logo_medium.png') no-repeat;
-    width: 100px;
-    height: 100px;
-    margin: 5px 5px 5px 0;
-  }
-  /* End Header */
+ 
 }
 
 /********** Small devices only **********/
@@ -291,22 +268,17 @@ p{
     font-size: 1em;
     margin-right: 5px;
   }
+  #collapsable-nav{
+    text-align: center;
+  
+    background-color: #9b9b9b;
 
-  #call-btn > a {
-    font-size: 1.5em;
-    display: block;
-    margin: 0 20px;
-    padding: 10px;
-    border: 2px solid #fff;
-    background-color: #f6b319;
-    color: #951c49;
   }
-  #xs-deliver {
-    margin-top: 5px;
-    font-size: .7em;
-    letter-spacing: .1em;
-    text-transform: uppercase;
+  #nav-list{
+    list-style-type: none;
   }
+
+
   /* End Header */
 
 }
